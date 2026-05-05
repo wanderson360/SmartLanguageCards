@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFFEB3B</color>
+    <color name="textColorLink">#3F51B5</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="holo_blue_light">#33B5E5</color>
+    <color name="holo_red_light">#FF4444</color>
+    <color name="green">#4CAF50</color>
+</resources>

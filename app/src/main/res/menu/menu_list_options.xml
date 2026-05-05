@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuItemAdicionar"
+        android:title="Adicionar"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add" />
+
+    <item
+        android:id="@+id/menuItemSobre"
+        android:title="Sobre"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuItemOrdenacao"
+        android:title="Ordenar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_ascending_order" />
+
+    <item
+        android:id="@+id/menuItemRestaurar"
+        android:title="Restaurar padrões"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuItemRandomCard"
+        android:title="Card aleatório"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuItemProgresso"
+        android:title="Progresso"
+        app:showAsAction="never" />
+
+    <!-- ✅ Novos itens -->
+    <item
+        android:id="@+id/menuItemFavoritos"
+        android:title="Mostrar Favoritos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuItemTodos"
+        android:title="Mostrar Todos"
+        app:showAsAction="never" />
+
+</menu>

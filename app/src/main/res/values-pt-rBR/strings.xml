@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">smartLanguageCards</string>
+    <string name="frente">Frente</string>
+    <string name="verso">Verso</string>
+    <string name="salvar">Salvar</string>
+    <string name="limpar">Limpar</string>
+    <string name="palavra_no_idioma_nativo">Palavra no idioma nativo (ex.: Casa)</string>
+    <string name="traducao_no_idioma_alvo">Tradução no idioma alvo (ex.: House)</string>
+    <string name="palavra_invalida">Palavra inválida!</string>
+    <string name="palavras_maiusculas">Palavras em Maiúsculas</string>
+
+    <!-- Níveis -->
+    <string name="basico">Básico</string>
+    <string name="intermediario">Intermediário</string>
+    <string name="avancado">Avançado</string>
+    <string name="nao_definido">Não definido</string>
+    <string name="selecione_uma_opcao_nivel">Selecione uma opção de nível</string>
+    <string name="nivel_formatado">Nível: %1$s</string>
+
+    <!-- Categorias -->
+    <string name="substantivo">Substantivo</string>
+    <string name="verbo">Verbo</string>
+    <string name="adjetivo">Adjetivo</string>
+    <string name="expressao">Expressão</string>
+    <string name="tipo_categoria">Categoria da palavra</string>
+    <string name="selecione_uma_categoria">Selecione uma categoria</string>
+    <string name="categoria_formatada">Categoria: %1$s</string>
+
+    <!-- Informações do app -->
+    <string name="logo_smart_language_cards">Logomarca Smart Language Cards</string>
+    <string name="descricao">Aplicativo de Flashcards para Aprendizado de Idiomas</string>
+    <string name="descricao_app">Flashcards para Aprendizado de Idiomas</string>
+    <string name="curso">Curso: Especialização Em Tecnologia Java</string>
+    <string name="disciplina">Disciplina: Desenvolvimento Java Para Dispositivos Móveis</string>
+    <string name="materia">Desenvolvimento Java Para Dispositivos Móveis</string>
+    <string name="professor">Prof.: Alexandre R. M. Feitosa | Profª.: Juliana Ferri</string>
+    <string name="universidade">Universidade Tecnológica Federal do Paraná (UTFPR)</string>
+    <string name="app">App: Smart Language Cards</string>
+    <string name="sobre">Sobre</string>
+    <string name="flashcards_para_aprendizado_de_idiomas">Flashcards Idiomas</string>
+    <string name="add">Adicionar</string>
+    <string name="cadastrar_nova_palavra_frase">Cadastrar</string>
+    <string name="editar_nova_palavra_frase">Editar</string>
+    <string name="descricao_app_sobre">Aplicativo de Flashcards para Aprendizado de Idiomas</string>
+    <string name="curso_pos">Course: Specialization in Java Technology</string>
+    <string name="nivel">Seu nível atual</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="Limpar">Limpar</string>
+
+    <!-- Contato -->
+    <string name="site_utfpr">www.utfpr.edu.br</string>
+    <string name="nenhum_aplicativo_para_abrir_paginas_web">Nenhum aplicativo para abrir páginas web</string>
+    <string name="email"><u>wanderson360back@gmail.com</u></string>
+    <string name="github">https://github.com/wanderson360</string>
+    <string name="actor">Autor: <u>Wanderson Sousa Silva</u></string>
+    <string name="contato_pelo_aplicativo">Contato pelo Aplicativo</string>
+    <string name="nenhum_aplicativo_para_enviar_um_e_mail">Nenhum aplicativo para enviar um e-mail</string>
+
+    <!-- Mensagens -->
+    <string name="campo_obrigatorio">Campo obrigatório</string>
+    <string name="palavra_adicionada">Palavra adicionada!</string>
+    <string name="palavra_editada">Palavra editada!</string>
+    <string name="palavra_excluida">Palavra excluída!</string>
+
+    <!-- Menu contextual -->
+    <string name="editar">Editar</string>
+    <string name="excluir">Excluir</string>
+    <string name="sugerir_tipo">Sugerir Tipo</string>
+    <string name="ordenacao">Ordenação</string>
+    <string name="restaurar_padroes">Restaurar Padrões</string>
+    <string name="padroes_restaurados">As configurações foram restauradas para os padrões originais!</string>
+    <string name="alerta">Aviso</string>
+    <string name="ok">Ok</string>
+    <string name="confirmation">Confirmação</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="confirmation_delete">Deseja excluir \"%1$s\"?</string>
+    <string name="itens_selecionados">" Selecionado(s)"</string>
+    <string name="restore_the_default_settings">Deseja restaurar as configurações padrão?</string>
+    <string name="send_email">wanderson360back@gmail.com</string>
+    <string name="mailto">mailto:</string>
+    <string name="cards_aleatorios">Cards Aleatórios</string>
+    <string name="favorito">Favorito</string>
+</resources>

@@ -1,0 +1,55 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'br.edu.utfpr.wandersonsousa.smartlanguagecards'
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId "br.edu.utfpr.wandersonsousa.smartlanguagecards"
+        minSdk = 28
+        targetSdk = 36
+        versionCode = 1
+        versionName = "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // Corrigido: javaCompileOptions em minúsculo
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments += ["room.schemaLocation": "${projectDir}/schemas".toString()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    implementation libs.androidx.room.runtime
+    annotationProcessor libs.androidx.room.compiler
+    // Se usar Kotlin, troque por: kapt libs.androidx.room.compiler
+
+    implementation libs.androidx.lifecycle.viewmodel
+    implementation libs.androidx.navigation.fragment
+
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.material
+    implementation libs.androidx.activity
+    implementation libs.androidx.constraintlayout
+
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listaObjetivos">
+        <item>@string/substantivo</item>
+        <item>@string/verbo</item>
+        <item>@string/adjetivo</item>
+        <item>@string/expressao</item>
+    </string-array>
+
+    <string-array name="listaPalavraPtBR">
+        <item>Time</item>
+        <item>Person</item>
+        <item>Year</item>
+        <item>Way</item>
+        <item>Day</item>
+        <item>Thing</item>
+        <item>Man</item>
+        <item>Woman</item>
+        <item>Child</item>
+        <item>World</item>
+    </string-array>
+
+    <string-array name="listaPalavraUS">
+        <item>Tempo</item>
+        <item>Pessoa</item>
+        <item>Ano</item>
+        <item>Caminho</item>
+        <item>Dia</item>
+        <item>Coisa</item>
+        <item>Homem</item>
+        <item>Mulher</item>
+        <item>Criança</item>
+        <item>Mundo</item>
+    </string-array>
+
+    <integer-array name="configuracaoUsarMaiuscula">
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <!-- 0~3 -->
+    <integer-array name="listaCategorias">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <integer-array name="nivelIdioma">
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+</resources>

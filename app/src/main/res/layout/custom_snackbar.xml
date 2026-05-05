@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:backgroundTint="@color/black"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Texto verde com sombra -->
+        <TextView
+            android:id="@+id/snackbar_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Campos limpos. Deseja desfazer?"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="6dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"/>
+
+        <!-- Linha com os botões centralizados -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:showDividers="middle"
+            android:dividerPadding="20dp">
+
+            <!-- Botão Desfazer -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/snackbar_undo"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desfazer"
+                android:textAllCaps="false"
+                android:textColor="@color/holo_blue_light"
+                android:textSize="18sp"
+                app:icon="@drawable/ic_undo"
+                app:iconPadding="8dp"
+                app:iconTint="@color/holo_blue_light"
+                android:background="@drawable/ripple_blue"
+                android:elevation="2dp"
+                android:layout_marginEnd="12dp"/>
+
+            <!-- Botão Fechar -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/snackbar_close"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fechar"
+                android:textAllCaps="false"
+                android:textColor="@color/holo_red_light"
+                android:textSize="18sp"
+                app:icon="@drawable/ic_close"
+                app:iconPadding="8dp"
+                app:iconTint="@color/holo_red_light"
+                android:background="@drawable/ripple_red"
+                android:elevation="2dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

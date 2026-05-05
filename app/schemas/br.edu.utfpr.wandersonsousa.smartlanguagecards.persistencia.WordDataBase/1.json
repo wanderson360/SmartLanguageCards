@@ -1,0 +1,83 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "6a51668acdab29b5a90a4ad2f4e70214",
+    "entities": [
+      {
+        "tableName": "Word",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `frontWord` TEXT NOT NULL, `backWord` TEXT NOT NULL, `uppercaseWord` INTEGER NOT NULL, `category` TEXT NOT NULL, `languageLevel` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "frontWord",
+            "columnName": "frontWord",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "backWord",
+            "columnName": "backWord",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "uppercaseWord",
+            "columnName": "uppercaseWord",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "category",
+            "columnName": "category",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "languageLevel",
+            "columnName": "languageLevel",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_Word_frontWord",
+            "unique": false,
+            "columnNames": [
+              "frontWord"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_Word_frontWord` ON `${TABLE_NAME}` (`frontWord`)"
+          },
+          {
+            "name": "index_Word_backWord",
+            "unique": false,
+            "columnNames": [
+              "backWord"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_Word_backWord` ON `${TABLE_NAME}` (`backWord`)"
+          }
+        ],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '6a51668acdab29b5a90a4ad2f4e70214')"
+    ]
+  }
+}
